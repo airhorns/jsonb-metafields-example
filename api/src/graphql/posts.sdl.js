@@ -1,4 +1,6 @@
 export const schema = gql`
+  scalar Json
+
   type Post {
     id: Int!
     title: String!
