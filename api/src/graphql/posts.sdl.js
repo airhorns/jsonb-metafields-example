@@ -19,7 +19,7 @@ export const schema = gql`
   input CreatePostInput {
     title: String!
     body: String!
-    metafields: Json!
+    metafields: Json
   }
 
   input UpdatePostInput {

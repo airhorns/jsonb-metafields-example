@@ -70,7 +70,7 @@ const PostForm = (props) => {
           defaultValue={props.post?.metafields}
           className={CSS.input}
           errorClassName={CSS.inputError}
-          validation={{ required: true }}
+          validation={{ required: false }}
         />
         <FieldError name="metafields" className={CSS.errorMessage} />
 
