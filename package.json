@@ -10,6 +10,12 @@
     "@redwoodjs/core": "^0.6.0",
     "netlify-plugin-prisma-provider": "^0.3.0"
   },
+  "resolutions": {
+    "@prisma/client": "2.0.0-beta.4",
+    "@prisma/engine-core": "2.0.0-beta.4",
+    "@prisma/cli": "2.0.0-beta.4",
+    "@prisma/sdk": "2.0.0-beta.4"
+  },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config"
   },
