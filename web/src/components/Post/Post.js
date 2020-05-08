@@ -43,6 +43,9 @@ const Post = ({ post }) => {
             </tr><tr className="odd:bg-gray-100 even:bg-white border-t">
               <td className="font-semibold p-3 text-right md:w-1/5">createdAt</td>
               <td className="p-3">{post.createdAt}</td>
+            </tr><tr className="odd:bg-gray-100 even:bg-white border-t">
+              <td className="font-semibold p-3 text-right md:w-1/5">metafields</td>
+              <td className="p-3">{post.metafields}</td>
             </tr>
           </tbody>
         </table>
