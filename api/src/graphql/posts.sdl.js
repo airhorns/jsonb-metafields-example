@@ -1,3 +1,5 @@
+import { GraphQLJSON } from 'graphql-type-json'
+
 export const schema = gql`
   scalar Json
 
@@ -32,3 +34,7 @@ export const schema = gql`
     deletePost(id: Int!): Post!
   }
 `
+
+export const resolvers = {
+  Json: GraphQLJSON,
+}
